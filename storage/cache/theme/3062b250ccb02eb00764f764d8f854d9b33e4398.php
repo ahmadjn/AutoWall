@@ -30,13 +30,13 @@
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
         rel="stylesheet">
     <link rel="canonical" href="<?php echo e(current_url()); ?>" />
-    <link rel="shortcut icon" href="<?php echo e(SITE_URL); ?>/assets/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo e(SITE_URL); ?>/assets/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo e(SITE_URL); ?>/assets/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo e(SITE_URL); ?>/assets/favicon-16x16.png" />
-    <meta name="theme-color" content="#2979FF" />
-    <meta name="msapplication-navbutton-color" content="#2979FF" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="#2979FF" />
+    <link rel="shortcut icon" href="<?php echo e(SITE_URL); ?>/assets/images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo e(SITE_URL); ?>/assets/images/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo e(SITE_URL); ?>/assets/images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo e(SITE_URL); ?>/assets/images/favicon-16x16.png" />
+    <meta name="theme-color" content="#02875f" />
+    <meta name="msapplication-navbutton-color" content="#02875f" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#02875f" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <!--ads/auto.txt-->
     <script type="application/ld+json">
@@ -60,7 +60,7 @@
             "@type": "Organization",
             "name": "<?php echo e(SITE_NAME); ?>",
             "url": "<?php echo e(SITE_URL); ?>",
-            "logo": "<?php echo e(SITE_URL); ?>/assets/images/logo.png"
+            "logo": "<?php echo e(SITE_URL); ?>/assets/images/logo.jpg"
         }
     </script>
 </head>
