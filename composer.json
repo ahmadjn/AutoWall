@@ -1,0 +1,17 @@
+{
+  "name": "ahmadjn/auto-wall",
+  "authors": [
+    {
+      "name": "ahmadjn",
+      "email": "ahmadjn01@gmail.com"
+    }
+  ],
+  "require": {
+    "mikecao/flight": "^2.0",
+    "duzun/hquery": "^3.0",
+    "ryangjchandler/standalone-blade": "^0.1.0",
+    "stefangabos/zebra_curl": "^1.6"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
