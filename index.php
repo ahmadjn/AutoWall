@@ -62,7 +62,6 @@ Flight::route('/download/wallpaper/@res:[0-9]+x[0-9]+/@slug/', function ($res, $
 });
 
 Flight::map('notFound', function () {
-
     return Flight::redirect('/');
 });
 
