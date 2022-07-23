@@ -2,7 +2,7 @@
 
 @section('head')
     <title>{{ $data['title'] }} Wallpapers, {{ $data['category'] }} Wallpapers, Images, Backgrounds, Photos and Pictures
-        Free Download</title>
+        Free Download - {{ strtoupper(str_replace('https://', '', SITE_URL)) }}</title>
 @endsection
 
 @section('content')

@@ -1,7 +1,8 @@
 @extends($layout)
 
 @section('head')
-    <title>Best Source For HD, 4K, 5K, 8K Wallpapers</title>
+    <title>{{ SITE_NAME }} - {{ strtoupper(str_replace('https://', '', SITE_URL)) }}</title>
+    <meta name="description" content="{{ SITE_DESC }}">
     @if ($page <= 1)
         <meta name="robots" content="index,follow" />
     @else

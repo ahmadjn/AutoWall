@@ -1,7 +1,7 @@
 @extends($layout)
 
 @section('head')
-    <title>{{ $data['title'] }} | Page {{ $page }}</title>
+    <title>{{ $data['title'] }} - {{ strtoupper(str_replace('https://', '', SITE_URL)) }} | Page {{ $page }}</title>
     <meta name="keywords" content="{{ $data['keywords'] }}">
     <meta name="description" content="{{ $data['description'] }}">
     @if ($page <= 1)
