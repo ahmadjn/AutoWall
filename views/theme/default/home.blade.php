@@ -35,7 +35,7 @@
                                 <div>
                                     <div
                                         class="p-4 space-y-3 text-lg transition duration-300 ease-in-out translate-y-4 transform-gpu group-hover:opacity-100 group-hover:translate-y-0">
-                                        <div class="font-semibold">{{ $item['title'] }}</div>
+                                        <h2 class="font-semibold">{{ $item['title'] }}</h2>
                                     </div>
                                 </div>
                             </div>
