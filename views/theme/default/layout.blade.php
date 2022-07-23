@@ -45,7 +45,7 @@
             "@id": "{{ SITE_URL }}/#website",
             "url": "{{ SITE_URL }}/",
             "name": "{{ SITE_NAME }}",
-            "description": "{{ SITE_NAME }}",
+            "description": "{{ SITE_DESC }}",
             "potentialAction": [{
                 "@type": "SearchAction",
                 "target": "{{ SITE_URL }}/?s={search_term_string}",

@@ -14,11 +14,10 @@
         <div class="container flex flex-col items-center justify-center px-5 py-10 mx-auto">
             <div class="w-full text-center lg:w-2/3">
                 <h1 class="mb-4 text-3xl font-medium text-gray-900 title-font sm:text-4xl">
-                    Best Source For HD, 4K, 5K, 8K Wallpapers
+                    {{ SITE_NAME }}
                 </h1>
                 <h2 class="mb-2 leading-relaxed">
-                    Download HD Wallpapers, Android/iPhone Wallpapers, Desktop Wallpapers, Widescreen Wallpapers In High
-                    Quality
+                    {{ SITE_DESC }}
                 </h2>
             </div>
         </div>
